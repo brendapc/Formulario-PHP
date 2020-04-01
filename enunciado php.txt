@@ -1,0 +1,3 @@
+crie um formulario para que o usuário através de uma página web preencher
+o nome e a idade dos competidores. Esses dados deverão ser utilizados
+para exibir em qualcategoria o competidor se encaixa, infantil, Adolescente ou Adulto
