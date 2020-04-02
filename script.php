@@ -11,27 +11,7 @@ $nome = $_POST["nome"];
 $idade = $_POST["idade"];
 
 
-if(empty($nome)){
-    $_SESSION['mensagem-de-erro'] = 'o nome não pode ser vazio';
-    header('location: index.php');
-    return;
-}   
-else if(strlen($nome) < 3){
-    $_SESSION['mensagem-de-erro'] = ' o nome não pode conter menos de 3 caracteres';
-    header('location: index.php'); 
-    return;
-    
-}
-else if(strlen($nome)>30){
-    $_SESSION['mensagem-de-erro'] = 'o nome é muito extenso';
-    header('location: index.php');
-    return;
-}
-else if(!is_numeric($idade)){
-    $_SESSION['mensagem-de-erro'] = 'informe um numero para idade';
-    header('location: index.php'); 
-    return;
-}
+
 
 
 if($idade >=6 && $idade<12){
